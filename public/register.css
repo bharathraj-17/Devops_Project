@@ -1,0 +1,150 @@
+body{
+    background-image:url("image/picture.jpg");
+    background-repeat: no-repeat;
+       background-size:1700px 1000px;
+    
+}
+.container{
+   border:2px solid white;
+   border-radius:30px;
+   box-shadow: 10px 10px 8px 1px rgb(0,0,0,0.25);
+   background-image: linear-gradient(#ff80df, #8080ff);
+   width:300px;
+   height:360px;
+   margin:auto;
+   margin-top:10%;
+   color: white;
+}
+.container h1{
+   text-align: center;
+   margin-bottom:10%;
+}
+.container label{
+   margin-left:12%;
+   margin-right:5%;
+}
+.container input{
+   width:130px;
+}
+.container button{
+   margin-left:40%;
+   margin-top:10%;
+   padding:6px 12px 6px 12px;
+   border-radius:5px;
+
+}
+.container button:hover{
+   background-color:#b3ffe6;
+
+}
+.container a{
+   margin-left: 10%;
+   color:#bfff80;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#ff80df, #8080ff);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+nav img {
+    width: 150px;
+    background: none;
+  }
+.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./image/picture.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    height: 35;
+}
+.toggle-btn{
+    padding: 10px 85px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(to right,#10d3ff,#063cff);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 145px;
+    position: absolute;
+    width: 289px;
+    transition: .5s;
+    right: 60px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 17px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto;
+    background: linear-gradient(to right, #10d3ff,#063cff);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+}
+.chech-box{
+    margin: 30px 10 px 30px 0;
+}
+
+#register{
+    left: 50px;
+    top: 170px;
+}
+.message {
+    text-align: center;
+    margin-top: 277px;
+    color: green;
+    font-weight: bold;
+    font-size: small;
+}

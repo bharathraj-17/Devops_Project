@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+:root {
+  --yellow: #f5bf23;
+  --black: #111;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  --border: .1rem solid rgba(0, 0, 0, .3);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+}
+
+.contact-us {
+    background: var(--black);
+}
+
+.contact-us .heading {
+    color: var(--white);
+    font-size: 90px;
+}
+
+.contact-us .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact-us .row .map {
+    flex: 1 1 41rem;
+    width: 100%;
+}
+
+.contact-us .row form {
+    flex: 1 1 41rem;
+    background: var(--white);
+    padding: 2rem;
+}
+
+.contact-us .row form h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+.contact-us .row form .box {
+    margin: 0.7rem 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-bottom: var(--border);
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+.contact-us .row form .box:focus {
+    border-color: var(--yellow);
+}
+
+.contact-us .row form textarea {
+    height: 15rem;
+    resize: none;
+}
+/* Other styles for the .contact section */
+
+.contact-us .btn {
+    background-color: var(--yellow);
+    color: var(--black);
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us .btn:hover {
+    background-color: #ffd700; /* Lighter shade of yellow on hover */
+}
+.red-btn {
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #0a0909;
+    border: 1px solid #100e0e;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
